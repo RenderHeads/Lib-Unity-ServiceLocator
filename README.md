@@ -25,7 +25,7 @@ You could extend this interface to introduce an abstraction layer on retrival of
 
 ### MonoService
 
-A MonoBehaviour servic.
+A MonoBehaviour service.
 
 `OnEnable` adds and `OnDisable` removes the service from the ServiceLocator. Remember to call these base implementations if `OnEnable` or `OnDisable`are called.
 
